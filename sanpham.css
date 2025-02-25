@@ -1,0 +1,250 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header chứa menu */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.menu a:hover {
+    color: #ff6347;
+}
+
+/* Chi tiết sản phẩm */
+.product-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Hộp chứa ảnh sản phẩm */
+.product-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-image img {
+    width: 350px;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hộp chứa thông tin sản phẩm */
+.product-info {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-info h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 22px;
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.buy-btn, .add-to-cart-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Khoảng cách giữa các nút */
+}
+
+.buy-btn {
+    background-color: #ff6347;
+    color: white;
+}
+
+.buy-btn i {
+    margin-right: 8px; /* Khoảng cách giữa icon và chữ */
+}
+
+.buy-btn:hover {
+    background-color: #e5533b;
+}
+
+.add-to-cart-btn {
+    background-color: black;
+    color: white;
+}
+
+.add-to-cart-btn i {
+    margin-right: 8px; /* Khoảng cách giữa icon và chữ */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #333;
+}
+
+
+/* Thông số kỹ thuật */
+.product-specs {
+    padding: 30px;
+    background: #f9f9f9;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.product-specs h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.product-specs ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.product-specs li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-about,
+.footer-contact,
+.footer-social {
+    width: 30%;
+}
+
+.footer-about h3,
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-about p,
+.footer-contact ul,
+.footer-social ul {
+    font-size: 14px;
+}
+
+.footer-contact ul,
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-contact li,
+.footer-social li {
+    margin-bottom: 8px;
+}
+
+.footer-contact a,
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover,
+.footer-social a:hover {
+    color: #ff6347;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}/* Phần chứa thông số kỹ thuật và ưu đãi */
+.product-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    background: #f9f9f9;
+    margin-top: 30px;
+}
+
+.product-specs, .product-offers {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-specs h2, .product-offers h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.product-specs ul, .product-offers ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.product-specs li, .product-offers li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
